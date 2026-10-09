@@ -1,4 +1,4 @@
-<!-- gf-brief source=75c1bcb6093f97294b681311c2e084eb4aa2189676546a28f4ff29f0d4a3efd6 written=2026-10-09T13:25:15+03:00 -->
+<!-- gf-brief source=75c1bcb6093f97294b681311c2e084eb4aa2189676546a28f4ff29f0d4a3efd6 written=2026-10-09T13:25:26+03:00 -->
 # Chickolox
 ## What it is
 Chickolox is a session board for coaches. For each client you write a Goal and a Reality, add Options, star one path as the Will, then file that session on this device. It is for coaches and facilitators who want those notes on the phone they are holding, not in a shared notebook.
