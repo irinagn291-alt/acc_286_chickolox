@@ -1,0 +1,20 @@
+Chickolox és un tauler de sessió per a coaches. Per a cada client escrius un Objectiu i una Realitat, afegeixes Opcions, marques amb estrella un camí com a Voluntat i arxives aquella sessió en aquest dispositiu. És per a coaches i facilitadors que volen aquestes notes al telèfon que tenen a la mà, no en un quadern compartit.
+
+• Presentació inicial que indica que el tauler es queda en aquest dispositiu, després Fixar, després Segellar
+• Desbloqueig abans que apareguin els noms dels clients
+• Una safata de clients i una llista de Clients amb nom i dígits de taulell
+• Un tauler de sessió de quatre plaques: Objectiu, Realitat, Opcions, Voluntat
+• Fixar bloqueja l'Objectiu i la Realitat
+• Línies d'opció; un camí amb estrella esdevé la Voluntat
+• Preparació de l'1 al 5
+• Segellar arxiva la sessió i obre el tauler següent
+• Retirar treu l'últim segell mentre el tauler següent és buit
+• Camí: Esborrany, Fixat, Ramificat, Segellat
+• Progrés: Voluntats arxivades, preparació i dies des de cada segell
+• Codi de taulell: càmera o dígits escrits
+• Exportar sessions segellades
+• Contactar Gradus
+• Tornar a mostrar la presentació
+• Esborrar la llista
+
+Les dades es queden en aquest dispositiu.

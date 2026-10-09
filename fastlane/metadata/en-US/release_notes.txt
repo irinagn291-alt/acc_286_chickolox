@@ -1,0 +1,18 @@
+Version 1.0 is the first release of Chickolox, a session board for coaches.
+
+For each client you write a Goal and a Reality, add Options, star one path as the Will, then file that session on this device.
+
+• Onboarding: A board for one session, Ground, then branch, and Seal files the will
+• Unlock before client names appear
+• Clients, Progress, Path, Scan, and Settings
+• Goal, Reality, Options, and Will
+• Ground, Seal, and Retract
+• Path: Draft, Grounded, Branched, Sealed
+• Progress: filed Wills, readiness, and days since each seal
+• Desk code: camera or typed digits
+• Export sealed sessions
+• Contact Gradus
+• Show onboarding again
+• Erase roster
+
+Data stays on this device.

@@ -1,0 +1,1 @@
+Un tauler de sessió per a coaches. Escriu un Objectiu i una Realitat, afegeix Opcions, marca amb estrella un camí com a Voluntat i Segella la sessió en aquest dispositiu.

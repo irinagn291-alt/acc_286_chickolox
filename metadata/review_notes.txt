@@ -1,0 +1,19 @@
+The camera permission appears the first time you open Scan, which opens Desk code, then tap Continue on A desk code can open the matching board. The usage description is Gradus uses the camera to read a desk QR and open that coachee's canvas. Face ID appears when you tap Continue on Client records are sealed. The usage description is Gradus uses Face ID so client names stay sealed until you confirm it is you. The system reason is Confirm it is you before client names appear. A device without Face ID asks for the device passcode with that same reason.
+
+There is no login, no in-app purchase, no account deletion flow, and no App Tracking Transparency prompt. The coach types private client names and session notes; there is no public feed.
+
+Chickolox is a session board for coaches. For each client you write a Goal and a Reality, add Options, star one path as the Will, then file that session on this device. It is for coaches and facilitators who want those notes on the phone they are holding, not in a shared notebook.
+
+No credentials or demo account are needed. A cold launch shows a system launch screen with no app copy, then an unlabeled spinner. If onboarding has not been finished, three pages appear with dots, Skip at the top right, and a bottom button that reads Next on the first two pages and Continue on the last. The pages are A board for one session. with Goal and reality stay on this device, with the client you picked.; Ground, then branch. with Lock Goal and Reality before options and will can move.; and Seal files the will. with Two options, one starred path, then the next board opens. Skip on any page, or Continue on the last page, finishes onboarding and opens the board. The board then shows Client records are sealed. with Unlock, then pick a client. and Continue. Continue does nothing useful until the system unlock succeeds. Failure replaces the line with Face ID did not confirm. Try again. Tap Continue again. After the system confirms it is you, an empty roster shows No client on the tray yet. with Add a client, then ground today's goal and reality. and Add a client. That control opens Clients. An empty Clients page shows The tray is empty. with Add a client, or scan a desk code. and Scan a desk; there is no Name field on this empty page. The first client is created from a desk code, not from the Name field. Tap Scan a desk. On Desk code, type the attached digits in Type desk digits and tap Open desk, or scan the attached QR. A run that is not 8 to 14 digits shows That code is not on this device. New digits file a client named Client N. Write both Goal and Reality, then tap Ground. Use Add an option line and Add until there are two options. Tap one option so the Will chip appears. Tap Seal to file the session. Clients, Progress, Path, and Settings open as sheets from the tool row. Scan opens Desk code full screen.
+
+On the Simulator, a first launch can skip onboarding and that unlock and open a populated board with Mira Calder, Jonah Peck, Adele Voss, and Chris Lang.
+
+Data stays on this device. The on-screen support control is Contact Gradus.
+
+English copy only. No region-specific catalog. Whole numbers follow the device's decimal format without grouping.
+
+No licence or regulated-industry paperwork applies. This is a productivity session board for coaches and is not a regulated service.
+
+The app does not show health, medical, or product-health information. Readiness N of 5 is session readiness, not a medical score. The app is a personal log only and gives no recommendations.
+
+A scannable QR (qr-code.png) is attached to this review. It encodes 123456789012. On a device, scan that code in Desk code or type those digits in Type desk digits and tap Open desk. Simulator users type those digits. On the Simulator there is no live camera; the preview reads Type a desk code, or tap a chip.

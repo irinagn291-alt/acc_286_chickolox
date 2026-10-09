@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC5E76A924BC83BE7EBE41F /* ChartVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4BCC624E3714ACEA3D621 /* ChartVault.swift */; };
+		0DC70DC8CF25AA89847A55CB /* CanvasPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56041E0B5D916EC23D580DAC /* CanvasPhase.swift */; };
+		0F24EC8E508C63FD70ED5DF4 /* Coachee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB5A4B91AD574679481561 /* Coachee.swift */; };
+		12E2317F268CC3653358816A /* ChartRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B208B820596132D184FEB /* ChartRecord.swift */; };
+		1442C6D1E53620263D9A118D /* BlankMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4071C8BF23F56239526F70 /* BlankMark.swift */; };
+		17CCB54AFE7C1F9C0A6FF101 /* ProgressSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D21E1E8EBF250F0301EEC9 /* ProgressSheet.swift */; };
+		1EF11794958C87643FF4409A /* OptionMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FACF6862D7FFC147DCF1D /* OptionMark.swift */; };
+		202CE2ED1BD0562B2EBDC342 /* BoardRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD28BC4AD81D56B9343030 /* BoardRoot.swift */; };
+		2353908171AE88906A20CF4F /* Quadrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC1294F5CA2357631DCB33 /* Quadrant.swift */; };
+		267F8FF538079C163C9B042E /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53A48182723443686D483F /* DesignTokens.swift */; };
+		37695DFE881EA988EF24DA6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CCDF27DF6EDCC78B4260A /* ContentView.swift */; };
+		3DD4D52C9A07D20F91BDDA58 /* ChromeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8259D5178BEA5B5712EC71D4 /* ChromeStyles.swift */; };
+		4944437890350D66FF6E226D /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614847171F4732CDCC0B089B /* ReviewLaunch.swift */; };
+		527433937E0655C2099388BC /* LadderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05BD70A417969DE922B457 /* LadderSheet.swift */; };
+		5594104A0874EA0C7A40C7D4 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54476816921E7DD9987678A /* APIConfig.swift */; };
+		5B5A30605D64BCE2F9D977BE /* ScanCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9BAA7526A1673CEEA7BF8 /* ScanCover.swift */; };
+		5B82CDCDBC3E3CE94E21F956 /* FanSheen.metal in Sources */ = {isa = PBXBuildFile; fileRef = C474DB42CB80FFB6C2CA543B /* FanSheen.metal */; };
+		6064A33FF6EF0B5E420AB0F1 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8471726AF16A102D2F72532 /* Canvas.swift */; };
+		60A68A277841173FF54056F0 /* EmptyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E348A19587C1B9D84FB3D /* EmptyPage.swift */; };
+		73E5BA62473B37CCA9534B8F /* GradusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D17637BD00F01B2805B7B /* GradusTests.swift */; };
+		7C0731B2FAF1600033B71A61 /* ClientsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC27BB1E8F89FCC4FBE6EA /* ClientsSheet.swift */; };
+		8172A613015624C566E53677 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 97F2310147350B6AD825B9CE /* AppsFlyerLib-Static */; };
+		8B1DA7225B9F1FDBACC26EF4 /* EarlyMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F296AD2E24F78996FA95A793 /* EarlyMark.swift */; };
+		9A6D9E19E155A670435465F3 /* SessionNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14652C1A6FA66C8380D3F9E /* SessionNote.swift */; };
+		9B959A2F2B96980B72F9AC24 /* ThinMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044361413EFAD293BEE87D5 /* ThinMark.swift */; };
+		A061C6BC1E6A6F180D4F6FB0 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C417600E7CDEB1586C41C4 /* Measure.swift */; };
+		A141F9E7AF6C190F3E6BCF0A /* OnboardingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242F6AA4F5963347719B025 /* OnboardingPages.swift */; };
+		A17C171CEE7278B90B8829E1 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F54C426244DE1D0D4B85442 /* SettingsSheet.swift */; };
+		A5FD0726E57ACCB082E65CD0 /* GroundMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E048B528F0C05C46634109F /* GroundMark.swift */; };
+		A8DA9026E21FFE162165A451 /* PracticeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7906C19AEBB2D735B9BAD0 /* PracticeStore.swift */; };
+		AA98AA60EB0DB46DB780EE41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE6110F0A8D71DD48D19AA0 /* Assets.xcassets */; };
+		AF615898B7D59E105D0D7AD1 /* Aimless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9468ED98D8445EE3F30E1 /* Aimless.swift */; };
+		BDB935B204E01C445E2013FC /* GradusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695DBD6A2F22C4F280143A6 /* GradusApp.swift */; };
+		CE2E67054FD32EB1B4B63EF9 /* SessionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD48A193EE3570A6310AD92 /* SessionBoard.swift */; };
+		CE499BA79654C63C18BDDF77 /* SessionFolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642F16040C11D59B7409A54 /* SessionFolio.swift */; };
+		D4E52204F8C726ABE2D52331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F059879277721A05C2B25 /* AppDelegate.swift */; };
+		E711F7F8A5A93CBD6EB7BB4C /* DeskLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85084C987DCC7CB99288921B /* DeskLookup.swift */; };
+		F7AAAA38107F9E3FBF859EDA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B071528C39E11F8A67F3C82D /* Alamofire */; };
+		FCDD0E269A133C5DBB8E7C17 /* SealMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F10BC42BCFBA6630FC681 /* SealMark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C0F18457C83CD68467986A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4B6E385E59ABD21A653315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6B2541415948FA49C41242;
+			remoteInfo = Gradus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D21E1E8EBF250F0301EEC9 /* ProgressSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSheet.swift; sourceTree = "<group>"; };
+		20F9468ED98D8445EE3F30E1 /* Aimless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aimless.swift; sourceTree = "<group>"; };
+		243F1694CC06A475AF48ACE8 /* GradusTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GradusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7906C19AEBB2D735B9BAD0 /* PracticeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStore.swift; sourceTree = "<group>"; };
+		3242F6AA4F5963347719B025 /* OnboardingPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPages.swift; sourceTree = "<group>"; };
+		3E048B528F0C05C46634109F /* GroundMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundMark.swift; sourceTree = "<group>"; };
+		4A9CCDF27DF6EDCC78B4260A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C3F059879277721A05C2B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56041E0B5D916EC23D580DAC /* CanvasPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasPhase.swift; sourceTree = "<group>"; };
+		5F54C426244DE1D0D4B85442 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		6044361413EFAD293BEE87D5 /* ThinMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinMark.swift; sourceTree = "<group>"; };
+		614847171F4732CDCC0B089B /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		6227B6A7F402DCD1A8CDF538 /* Gradus.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Gradus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DC27BB1E8F89FCC4FBE6EA /* ClientsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsSheet.swift; sourceTree = "<group>"; };
+		6642F16040C11D59B7409A54 /* SessionFolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFolio.swift; sourceTree = "<group>"; };
+		68EC1294F5CA2357631DCB33 /* Quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrant.swift; sourceTree = "<group>"; };
+		7CE6110F0A8D71DD48D19AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8259D5178BEA5B5712EC71D4 /* ChromeStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeStyles.swift; sourceTree = "<group>"; };
+		85084C987DCC7CB99288921B /* DeskLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskLookup.swift; sourceTree = "<group>"; };
+		8DB4BCC624E3714ACEA3D621 /* ChartVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVault.swift; sourceTree = "<group>"; };
+		939F10BC42BCFBA6630FC681 /* SealMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealMark.swift; sourceTree = "<group>"; };
+		9D4071C8BF23F56239526F70 /* BlankMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankMark.swift; sourceTree = "<group>"; };
+		9D9B208B820596132D184FEB /* ChartRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRecord.swift; sourceTree = "<group>"; };
+		A2F9BAA7526A1673CEEA7BF8 /* ScanCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCover.swift; sourceTree = "<group>"; };
+		AA5FACF6862D7FFC147DCF1D /* OptionMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMark.swift; sourceTree = "<group>"; };
+		ACD48A193EE3570A6310AD92 /* SessionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionBoard.swift; sourceTree = "<group>"; };
+		B14652C1A6FA66C8380D3F9E /* SessionNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNote.swift; sourceTree = "<group>"; };
+		C0BB5A4B91AD574679481561 /* Coachee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coachee.swift; sourceTree = "<group>"; };
+		C474DB42CB80FFB6C2CA543B /* FanSheen.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = FanSheen.metal; sourceTree = "<group>"; };
+		C8471726AF16A102D2F72532 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		CC05BD70A417969DE922B457 /* LadderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderSheet.swift; sourceTree = "<group>"; };
+		D54476816921E7DD9987678A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		DD9E348A19587C1B9D84FB3D /* EmptyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPage.swift; sourceTree = "<group>"; };
+		E3BD28BC4AD81D56B9343030 /* BoardRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardRoot.swift; sourceTree = "<group>"; };
+		E4C417600E7CDEB1586C41C4 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		EA53A48182723443686D483F /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		ED6D17637BD00F01B2805B7B /* GradusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradusTests.swift; sourceTree = "<group>"; };
+		F296AD2E24F78996FA95A793 /* EarlyMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyMark.swift; sourceTree = "<group>"; };
+		F695DBD6A2F22C4F280143A6 /* GradusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradusApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DB6AC384C80EFBF48B7886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AAAA38107F9E3FBF859EDA /* Alamofire in Frameworks */,
+				8172A613015624C566E53677 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D99D5116588B9A5CD9C5161 /* Marks */ = {
+			isa = PBXGroup;
+			children = (
+				20F9468ED98D8445EE3F30E1 /* Aimless.swift */,
+				9D4071C8BF23F56239526F70 /* BlankMark.swift */,
+				F296AD2E24F78996FA95A793 /* EarlyMark.swift */,
+				3E048B528F0C05C46634109F /* GroundMark.swift */,
+				AA5FACF6862D7FFC147DCF1D /* OptionMark.swift */,
+				939F10BC42BCFBA6630FC681 /* SealMark.swift */,
+				6044361413EFAD293BEE87D5 /* ThinMark.swift */,
+			);
+			path = Marks;
+			sourceTree = "<group>";
+		};
+		3E178EB014CC4BB5A826274B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				85084C987DCC7CB99288921B /* DeskLookup.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		97F2CA1BF82F929E752C7CB5 = {
+			isa = PBXGroup;
+			children = (
+				D2E0133BD7154022EBACF677 /* Gradus */,
+				B0BEB25577281B4602F4EA20 /* GradusTests */,
+				F657F6619D44C9F97D49D03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BEB25577281B4602F4EA20 /* GradusTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D17637BD00F01B2805B7B /* GradusTests.swift */,
+			);
+			path = GradusTests;
+			sourceTree = "<group>";
+		};
+		BC853022311598D238247C99 /* Coachee */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB5A4B91AD574679481561 /* Coachee.swift */,
+				B14652C1A6FA66C8380D3F9E /* SessionNote.swift */,
+			);
+			path = Coachee;
+			sourceTree = "<group>";
+		};
+		D2E0133BD7154022EBACF677 /* Gradus */ = {
+			isa = PBXGroup;
+			children = (
+				D54476816921E7DD9987678A /* APIConfig.swift */,
+				4C3F059879277721A05C2B25 /* AppDelegate.swift */,
+				7CE6110F0A8D71DD48D19AA0 /* Assets.xcassets */,
+				4A9CCDF27DF6EDCC78B4260A /* ContentView.swift */,
+				EA53A48182723443686D483F /* DesignTokens.swift */,
+				F695DBD6A2F22C4F280143A6 /* GradusApp.swift */,
+				614847171F4732CDCC0B089B /* ReviewLaunch.swift */,
+				DBCE3880E82750515509E270 /* Canvas */,
+				BC853022311598D238247C99 /* Coachee */,
+				1D99D5116588B9A5CD9C5161 /* Marks */,
+				3E178EB014CC4BB5A826274B /* Network */,
+				F06A16E3BF379A37EDA6614A /* Presentation */,
+				DB4BD44E11D80F501484CAD4 /* Store */,
+			);
+			path = Gradus;
+			sourceTree = "<group>";
+		};
+		DB4BD44E11D80F501484CAD4 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B208B820596132D184FEB /* ChartRecord.swift */,
+				8DB4BCC624E3714ACEA3D621 /* ChartVault.swift */,
+				2B7906C19AEBB2D735B9BAD0 /* PracticeStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		DBCE3880E82750515509E270 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				C8471726AF16A102D2F72532 /* Canvas.swift */,
+				56041E0B5D916EC23D580DAC /* CanvasPhase.swift */,
+				68EC1294F5CA2357631DCB33 /* Quadrant.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		F06A16E3BF379A37EDA6614A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD28BC4AD81D56B9343030 /* BoardRoot.swift */,
+				8259D5178BEA5B5712EC71D4 /* ChromeStyles.swift */,
+				63DC27BB1E8F89FCC4FBE6EA /* ClientsSheet.swift */,
+				DD9E348A19587C1B9D84FB3D /* EmptyPage.swift */,
+				C474DB42CB80FFB6C2CA543B /* FanSheen.metal */,
+				CC05BD70A417969DE922B457 /* LadderSheet.swift */,
+				E4C417600E7CDEB1586C41C4 /* Measure.swift */,
+				3242F6AA4F5963347719B025 /* OnboardingPages.swift */,
+				17D21E1E8EBF250F0301EEC9 /* ProgressSheet.swift */,
+				A2F9BAA7526A1673CEEA7BF8 /* ScanCover.swift */,
+				ACD48A193EE3570A6310AD92 /* SessionBoard.swift */,
+				6642F16040C11D59B7409A54 /* SessionFolio.swift */,
+				5F54C426244DE1D0D4B85442 /* SettingsSheet.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F657F6619D44C9F97D49D03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6227B6A7F402DCD1A8CDF538 /* Gradus.app */,
+				243F1694CC06A475AF48ACE8 /* GradusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6B2541415948FA49C41242 /* Gradus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA3EDCBDC0370DD49DB3D56 /* Build configuration list for PBXNativeTarget "Gradus" */;
+			buildPhases = (
+				84667E3B21D14514116F0218 /* Sources */,
+				7EB3B8FD0CE3721C6B1B673A /* Resources */,
+				F6DB6AC384C80EFBF48B7886 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradus;
+			packageProductDependencies = (
+				B071528C39E11F8A67F3C82D /* Alamofire */,
+				97F2310147350B6AD825B9CE /* AppsFlyerLib-Static */,
+			);
+			productName = Gradus;
+			productReference = 6227B6A7F402DCD1A8CDF538 /* Gradus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2BFB809F3B50F1D7434AC9D /* GradusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A258E4E372DBBB55B87B57 /* Build configuration list for PBXNativeTarget "GradusTests" */;
+			buildPhases = (
+				6E6BC7760CB7E07CA1BAFF92 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1778906CC4963656E139ACC9 /* PBXTargetDependency */,
+			);
+			name = GradusTests;
+			packageProductDependencies = (
+			);
+			productName = GradusTests;
+			productReference = 243F1694CC06A475AF48ACE8 /* GradusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4B6E385E59ABD21A653315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5E6B2541415948FA49C41242 = {
+						ProvisioningStyle = Automatic;
+					};
+					D2BFB809F3B50F1D7434AC9D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29A0E8BFA2FF0A70EFB9C609 /* Build configuration list for PBXProject "Gradus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 97F2CA1BF82F929E752C7CB5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ADD1D4C6FB6315DE56D6B540 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				80C9A19BCA433EB6FAB330CD /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F657F6619D44C9F97D49D03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E6B2541415948FA49C41242 /* Gradus */,
+				D2BFB809F3B50F1D7434AC9D /* GradusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB3B8FD0CE3721C6B1B673A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA98AA60EB0DB46DB780EE41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6BC7760CB7E07CA1BAFF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E5BA62473B37CCA9534B8F /* GradusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84667E3B21D14514116F0218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5594104A0874EA0C7A40C7D4 /* APIConfig.swift in Sources */,
+				AF615898B7D59E105D0D7AD1 /* Aimless.swift in Sources */,
+				D4E52204F8C726ABE2D52331 /* AppDelegate.swift in Sources */,
+				1442C6D1E53620263D9A118D /* BlankMark.swift in Sources */,
+				202CE2ED1BD0562B2EBDC342 /* BoardRoot.swift in Sources */,
+				6064A33FF6EF0B5E420AB0F1 /* Canvas.swift in Sources */,
+				0DC70DC8CF25AA89847A55CB /* CanvasPhase.swift in Sources */,
+				12E2317F268CC3653358816A /* ChartRecord.swift in Sources */,
+				0AC5E76A924BC83BE7EBE41F /* ChartVault.swift in Sources */,
+				3DD4D52C9A07D20F91BDDA58 /* ChromeStyles.swift in Sources */,
+				7C0731B2FAF1600033B71A61 /* ClientsSheet.swift in Sources */,
+				0F24EC8E508C63FD70ED5DF4 /* Coachee.swift in Sources */,
+				37695DFE881EA988EF24DA6F /* ContentView.swift in Sources */,
+				267F8FF538079C163C9B042E /* DesignTokens.swift in Sources */,
+				E711F7F8A5A93CBD6EB7BB4C /* DeskLookup.swift in Sources */,
+				8B1DA7225B9F1FDBACC26EF4 /* EarlyMark.swift in Sources */,
+				60A68A277841173FF54056F0 /* EmptyPage.swift in Sources */,
+				5B82CDCDBC3E3CE94E21F956 /* FanSheen.metal in Sources */,
+				BDB935B204E01C445E2013FC /* GradusApp.swift in Sources */,
+				A5FD0726E57ACCB082E65CD0 /* GroundMark.swift in Sources */,
+				527433937E0655C2099388BC /* LadderSheet.swift in Sources */,
+				A061C6BC1E6A6F180D4F6FB0 /* Measure.swift in Sources */,
+				A141F9E7AF6C190F3E6BCF0A /* OnboardingPages.swift in Sources */,
+				1EF11794958C87643FF4409A /* OptionMark.swift in Sources */,
+				A8DA9026E21FFE162165A451 /* PracticeStore.swift in Sources */,
+				17CCB54AFE7C1F9C0A6FF101 /* ProgressSheet.swift in Sources */,
+				2353908171AE88906A20CF4F /* Quadrant.swift in Sources */,
+				4944437890350D66FF6E226D /* ReviewLaunch.swift in Sources */,
+				5B5A30605D64BCE2F9D977BE /* ScanCover.swift in Sources */,
+				FCDD0E269A133C5DBB8E7C17 /* SealMark.swift in Sources */,
+				CE2E67054FD32EB1B4B63EF9 /* SessionBoard.swift in Sources */,
+				CE499BA79654C63C18BDDF77 /* SessionFolio.swift in Sources */,
+				9A6D9E19E155A670435465F3 /* SessionNote.swift in Sources */,
+				A17C171CEE7278B90B8829E1 /* SettingsSheet.swift in Sources */,
+				9B959A2F2B96980B72F9AC24 /* ThinMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1778906CC4963656E139ACC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6B2541415948FA49C41242 /* Gradus */;
+			targetProxy = 40C0F18457C83CD68467986A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F173B242A2CD1E53363EDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradus.canvas.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gradus";
+			};
+			name = Release;
+		};
+		21FD7BAC64D578606CB563A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradus.canvas.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gradus";
+			};
+			name = Debug;
+		};
+		2705512BD8F7F34EA459BFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Gradus-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Chickolox;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gradus uses the camera to read a desk QR and open that coachee's canvas.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Gradus uses Face ID so client names stay sealed until you confirm it is you.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradus.canvas;
+				PRODUCT_NAME = Gradus;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B366B9DA871BBD3C6CAB2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		7147809917ED7852E71F91D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		AD6C46437628EFAD9364BCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Gradus-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Chickolox;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gradus uses the camera to read a desk QR and open that coachee's canvas.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Gradus uses Face ID so client names stay sealed until you confirm it is you.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradus.canvas;
+				PRODUCT_NAME = Gradus;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA3EDCBDC0370DD49DB3D56 /* Build configuration list for PBXNativeTarget "Gradus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2705512BD8F7F34EA459BFA7 /* Debug */,
+				AD6C46437628EFAD9364BCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		29A0E8BFA2FF0A70EFB9C609 /* Build configuration list for PBXProject "Gradus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B366B9DA871BBD3C6CAB2D7 /* Debug */,
+				7147809917ED7852E71F91D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93A258E4E372DBBB55B87B57 /* Build configuration list for PBXNativeTarget "GradusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FD7BAC64D578606CB563A6 /* Debug */,
+				0F173B242A2CD1E53363EDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80C9A19BCA433EB6FAB330CD /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+		ADD1D4C6FB6315DE56D6B540 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nf2nbm5m8f-oss/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97F2310147350B6AD825B9CE /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80C9A19BCA433EB6FAB330CD /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		B071528C39E11F8A67F3C82D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADD1D4C6FB6315DE56D6B540 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0A4B6E385E59ABD21A653315 /* Project object */;
+}

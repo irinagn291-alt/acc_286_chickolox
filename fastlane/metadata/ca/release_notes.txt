@@ -1,0 +1,18 @@
+La versió 1.0 és el primer llançament de Chickolox, un tauler de sessió per a coaches.
+
+Per a cada client escrius un Objectiu i una Realitat, afegeixes Opcions, marques amb estrella un camí com a Voluntat i arxives aquella sessió en aquest dispositiu.
+
+• Presentació: un tauler per a una sessió, Fixar, després ramificar, i Segellar arxiva la voluntat
+• Desbloqueig abans que apareguin els noms dels clients
+• Clients, Progrés, Camí, Escaneig i Ajustos
+• Objectiu, Realitat, Opcions i Voluntat
+• Fixar, Segellar i Retirar
+• Camí: Esborrany, Fixat, Ramificat, Segellat
+• Progrés: Voluntats arxivades, preparació i dies des de cada segell
+• Codi de taulell: càmera o dígits escrits
+• Exportar sessions segellades
+• Contactar Gradus
+• Tornar a mostrar la presentació
+• Esborrar la llista
+
+Les dades es queden en aquest dispositiu.
